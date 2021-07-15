@@ -4,6 +4,8 @@
 # know		[name]		[path]		// Load when needed
 # 
 
+#X
+load  X       data/chars/X/x.txt
 
 # Required objects. These must always be loaded.
 load	Flash		data/chars/misc/flash.txt
