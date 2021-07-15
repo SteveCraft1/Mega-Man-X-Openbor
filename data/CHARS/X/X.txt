@@ -1,0 +1,9 @@
+name X
+type player
+health 16
+speed 8
+mp 28
+jumpheight 3
+atchain 1
+combostyle 2
+load NormalShot
