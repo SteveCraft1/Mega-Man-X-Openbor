@@ -1,0 +1,18 @@
+name BombBeen
+type enemy
+health 10
+speed 4
+nolife 1
+hostile player
+candamage player
+
+anim	idle
+	offset	21 35
+	frame	data/chars/bombbeen/idle1.png
+	offset	21 37
+	frame	data/chars/bombbeen/idle2.png
+	offset	14 39
+	frame	data/chars/bombbeen/idle3.png
+		
+#|edited by openBor Stats v 0.62
+		

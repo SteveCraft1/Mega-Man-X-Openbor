@@ -1,0 +1,81 @@
+name WeakZero
+type player
+health 24
+speed 10
+jumpheight 3
+load charging
+load dash
+load ChargeShot
+keyscript data/scripts/WeakZero.c
+script data/scripts/WeakZero2.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	follow
+	delay	9
+	loop	0
+	offset	16 43
+	frame	data/chars/weakzero/shoot4.png
+	@cmd	projectile 1 "ChargeShot" 24 0 21 1
+	frame	data/chars/weakzero/shoot3.png
+		
+anim	freespecial
+	loop	0
+	delay	9
+	offset	16 43
+	frame	data/chars/weakzero/shoot1.png
+	frame	data/chars/weakzero/shoot2.png
+	frame	data/chars/weakzero/shoot3.png
+		
+anim	idle
+	delay	100
+	loop	1
+	offset	18 43
+	frame	data/chars/weakzero/idle1.png
+	delay	5
+	frame	data/chars/weakzero/idle2.png
+		
+anim	jump
+	delay	324
+	dropframe	1
+	offset	16 53
+	frame	data/chars/weakzero/sacrifice1.png
+	offset	27 43
+	frame	data/chars/weakzero/sacrifice2.png
+		
+anim	walk
+	delay	7
+	loop	1
+	offset	24 37
+	@cmd	projectile 1 "dash" -24 0 0 1
+	@cmd	projectile 1 "dash" -13 0 0 1
+	frame	data/chars/weakzero/dash1.png
+	frame	data/chars/weakzero/dash2.png
+	@cmd	projectile 1 "dash" -24 0 0 1
+	@cmd	projectile 1 "dash" -13 0 0 1
+	frame	data/chars/weakzero/dash3.png
+	frame	data/chars/weakzero/dash4.png
+		
+#|edited by openBor Stats v 0.62
+		

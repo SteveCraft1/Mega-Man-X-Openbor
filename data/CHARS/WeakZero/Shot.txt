@@ -1,0 +1,30 @@
+name ChargeShot
+type none
+health 1
+speed 10
+
+
+
+anim	idle
+	loop	1 2 7
+	delay	6
+	offset	6 13
+	frame	data/chars/weakzero/chargedshoot1.png
+	offset	6 23
+	frame	data/chars/weakzero/chargedshoot2.png
+	delay	7
+	offset	6 11
+	frame	data/chars/weakzero/chargedshot1.png
+	offset	6 7
+	frame	data/chars/weakzero/chargedshot2.png
+	offset	6 18
+	frame	data/chars/weakzero/chargedshot3.png
+	offset	6 11
+	frame	data/chars/weakzero/chargedshot4.png
+	offset	6 21
+	frame	data/chars/weakzero/chargedshot5.png
+	offset	6 11
+	frame	data/chars/weakzero/chargedshot6.png
+		
+#|edited by openBor Stats v 0.62
+		

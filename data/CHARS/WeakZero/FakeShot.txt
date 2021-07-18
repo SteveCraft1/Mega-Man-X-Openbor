@@ -1,0 +1,16 @@
+name charging
+health 1
+type none
+nomove 1
+
+anim	freespecial
+	offset	6 13
+	delay	9
+	frame	data/chars/weakzero/Charging1.png
+	offset	6 15
+	frame	data/chars/weakzero/Charging2.png
+	offset	4 11
+	frame	data/chars/weakzero/Charging3.png
+		
+#|edited by openBor Stats v 0.62
+		

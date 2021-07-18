@@ -1,0 +1,12 @@
+name PrisonUp
+type enemy
+health 1
+nomove 1
+nolife 1
+
+anim	idle
+	offset	16 21
+	frame	data/chars/weakzero/prison1.png
+		
+#|edited by openBor Stats v 0.62
+		

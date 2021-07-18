@@ -1,0 +1,12 @@
+name dash
+health 1
+type none
+nomove 1
+lifespan 0.1
+
+anim	idle
+	offset	9 15
+	frame	data/chars/weakzero/dasheffect.png
+		
+#|edited by openBor Stats v 0.62
+		

@@ -4,4 +4,3 @@ health 24
 speed 8
 mp 28
 jumpheight 3
-load NormalShot

@@ -1,0 +1,13 @@
+name PrisonDown
+type enemy
+health 1
+nomove 1
+nolife 1
+
+
+anim	idle
+	offset	16 18
+	frame	data/chars/weakzero/prison2.png
+		
+#|edited by openBor Stats v 0.62
+		

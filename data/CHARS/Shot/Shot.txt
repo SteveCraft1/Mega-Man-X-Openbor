@@ -1,0 +1,25 @@
+name NormalShot
+type none
+health 1
+speed 9
+
+
+
+anim	idle
+	followanim	1
+	followcond	1
+	attack	0 0 8 6 7 0 1 0 0 0
+	offset	5 5
+	frame	data/chars/Shot/Shot1.png
+		
+anim	follow
+	delay	5
+	offset	7 11
+	frame	data/chars/shot/shot2.png
+	offset	7 12
+	frame	data/chars/shot/shot3.png
+	offset	7 14
+	frame	data/chars/shot/shot4.png
+		
+#|edited by openBor Stats v 0.62
+		
