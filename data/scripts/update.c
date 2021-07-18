@@ -5,13 +5,14 @@ void main()
 	void P2 = getplayerproperty(1, "entity");
 	void P3 = getplayerproperty(2, "entity");
 	void P4 = getplayerproperty(3, "entity");
+	void P8 = getplayerproperty(7, "entity");
 	void XBar = getglobalvar("XBar");
 	void XHP = getglobalvar("XHP");
 	void ZeroBar = getglobalvar("ZeroBar");
 	void P1name = getentityproperty(P1, "defaultname");
 	void P1Alias = getentityproperty(P1, "model");
-	void P2name = getnentityproperty(P2, "defaultname");
-	void P2Alias = getnentityproperty(P2, "model");
+	void P2name = getentityproperty(P2, "defaultname");
+	void P2Alias = getentityproperty(P2, "model");
 
 	if(openborvariant("in_level")==1){
 		if(P1name == "X"){
@@ -65,8 +66,8 @@ void main()
 			}
 			if(P1Health==16){
 				drawsprite(XHP, 5, 34, 1499, 1);
-			} else if(P1name == "Zero"){
-			drawsprite(ZeroBar, 1, 30, 1499, 0);
+			} else if(P1name == "WeakZero"){
+			drawsprite(ZeroBar, 3, 30, 1499, 0);
 				
        }    }
     }    

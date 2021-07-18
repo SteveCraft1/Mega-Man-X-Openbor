@@ -1,0 +1,22 @@
+music	data/music/CentralHighway.ogg
+
+background	data/bgs/CentralBackground.png
+
+panel		data/bgs/CentralHighway.png
+
+spawn1 65 0 118
+
+wall 49 226 -50 -50 755 755 50 64
+wall 0 214 10 0 55 55 100 200
+
+order		a
+cameraoffset 0 -200
+group 1 1
+
+spawn BombBeen
+coords 1457 122
+at 1082
+
+spawn BombBeen
+coords 6834 181
+at 0

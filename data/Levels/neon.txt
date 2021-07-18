@@ -13,9 +13,9 @@ order	abababababababababababab
 
 
 
-spawn   E-MAI
-coords	380 160
-at	800
+spawn   BombBeen
+coords	168 172
+at      0
 
 
 wait
