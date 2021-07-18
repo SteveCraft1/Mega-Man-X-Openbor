@@ -6,4 +6,3 @@ mp 28
 jumpheight 3
 atchain 1
 combostyle 2
-load NormalShot
