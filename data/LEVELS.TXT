@@ -7,14 +7,13 @@
 #	next			Go to next level (show "stage clear" and stuff)
 #	scene	[filename]	Show a cut-scene
 #
-
-
-set	water_(3_levels)
-file	data/levels/water.txt
-file	data/levels/water2.txt
-file	data/levels/water3.txt
+p1smenu 50 227
+maxplayers 8
 
 set	modes_(2_levels)
+maxplayers 4
+z 190 190
+file	data/levels/CH.txt
 file	data/levels/neon.txt
 file	data/levels/screen.txt
 

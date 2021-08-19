@@ -1,7 +1,7 @@
 void main()
 {
-int Player = getlocalvar("player");
-       void Self = getplayerproperty(Player, "entity");
+int Self = getlocalvar("self");
+      void Player = getentityproperty(Self, "playerindex");
        int Direction = getentityproperty(Self, "direction");
        void Animation = getentityproperty(Self, "animationID");
        void frame = getentityproperty(Self, "animpos");
@@ -28,9 +28,12 @@ int Player = getlocalvar("player");
 
        if(Animation == openborconstant("ANI_FREESPECIAL") ){
        if(frame == 2){
-          int Charging2 = loadsample("data/MMXSound/Chargeloop.wav");
-          playsample(Charging2,0,120,120,100,1);
+          int Charging2 = loadsample("data/SOUNDS/Chargeloop.wav");
+          int charging_id = playsample(Charging2,0,120,120,100,0);
+          setglobalvar("chargingloop", charging_id);
           updateframe(Self, 0);
+          stopchannel(charging_id);
+          setglobalvar("chargingloop", charging_id);
        }
        }        
        }
