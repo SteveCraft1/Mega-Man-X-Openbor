@@ -5,13 +5,51 @@ speed 4
 nolife 1
 hostile player
 candamage player
+atchain 1
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	attack1
+	loop	0
+	delay	20
+	offset	22 81
+	range	0 29
+	frame	data/chars/bombbeen/idle4.png
+	offset	22 81
+	frame	data/chars/bombbeen/idle5.png
+	offset	15 81
+	frame	data/chars/bombbeen/idle6.png
+	@cmd	projectile 1 "BombDropped" 3 0 40 1 0 1 0
+	offset	18 80
+	frame	data/chars/bombbeen/idle7.png
+	offset	20 81
+	frame	data/chars/bombbeen/idle8.png
+	offset	13 81
+	frame	data/chars/bombbeen/idle9.png
+		
 anim	idle
-	offset	21 35
+	bbox	7 8 24 28
+	delay	6
+	loop	1
+	offset	21 80
 	frame	data/chars/bombbeen/idle1.png
-	offset	21 37
+	bbox	10 13 22 25
+	offset	21 80
 	frame	data/chars/bombbeen/idle2.png
-	offset	14 39
+	bbox	2 16 23 24
+	offset	14 80
 	frame	data/chars/bombbeen/idle3.png
 		
 #|edited by openBor Stats v 0.62

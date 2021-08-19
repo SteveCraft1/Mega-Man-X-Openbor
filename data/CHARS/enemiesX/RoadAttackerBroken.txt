@@ -1,0 +1,3 @@
+name RoadAttackerBroken
+type enemy
+nolife 1

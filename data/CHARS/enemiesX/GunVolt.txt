@@ -1,0 +1,61 @@
+name GunVolt
+type enemy
+health 16
+nolife 1
+nopain 1
+knockdowncount 99
+nomove 1 1
+candamage player
+hostile player
+
+
+
+
+
+
+
+anim	freespecial
+	attack	8 0 36 53 3 0 1 0 0 0
+	delay	12
+	offset	24 52
+	frame	data/chars/enemiesx/gunvoltpreparetoattack1.png
+	attack	8 0 36 50 3 0 1 1 0 0
+	offset	24 49
+	frame	data/chars/enemiesx/gunvoltpreparetoattack2.png
+	attack	8 0 36 48 3 0 1 0 0 0
+	offset	24 47
+	frame	data/chars/enemiesx/gunvoltpreparetoattack3.png
+	attack	8 0 36 47 3 0 1 1 0 0
+	offset	24 46
+	frame	data/chars/enemiesx/gunvoltpreparetoattack4.png
+	attack	8 0 36 48 3 0 1 0 0 0
+	offset	24 47
+	frame	data/chars/enemiesx/GunVoltattack1.png
+	attack	7 0 37 62 3 0 1 1 0 0
+	offset	24 61
+	frame	data/chars/enemiesx/GunVoltattack6.png
+	attack	7 0 35 62 3 0 1 0 0 0
+	frame	data/chars/enemiesx/GunVoltattack5.png
+	attack	7 0 36 62 3 0 1 0 0 0
+	frame	data/chars/enemiesx/GunVoltattack4.png
+	attack	7 0 36 62 3 0 1 1 0 0
+	delay	100
+	frame	data/chars/enemiesx/GunVoltattack3.png
+	attack	7 0 35 62 3 0 1 1 0 0
+	delay	12
+	frame	data/chars/enemiesx/GunVoltattack2.png
+	attack	7 0 36 62 3 0 1 1 0 0
+	frame	data/chars/enemiesx/GunVoltattack3.png
+		
+anim	idle
+	attack	0 0 42 57 3 0 1 0 0 0
+	delay	20
+	loop	1
+	offset	20 56
+	frame	data/chars/enemiesx/gunvoltidle1.png
+	attack	0 0 42 58 3 0 1 0 0 0
+	offset	20 57
+	frame	data/chars/enemiesx/gunvoltidle2.png
+		
+#|edited by openBor Stats v 0.62
+		

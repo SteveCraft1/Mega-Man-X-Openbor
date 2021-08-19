@@ -1,0 +1,43 @@
+name BombDropped
+type enemy
+candamage player
+health  100
+gfxshadow	1
+speed   7
+remove 1
+jumpheight   1
+antigravity  20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anim	attack1
+	delay	1
+	offset	5 10
+	frame	data/chars/bombbeen/idle.png
+
+anim	attack2
+	delay	1
+	offset 	5 10
+	frame	data/chars/bombbeen/idle.png
+		
+anim	idle
+	loop	0
+	landframe	1
+	delay	900
+	attack	0 0 10 11 8 0 1 0 0 0
+	offset	5 10
+	frame	data/chars/bombbeen/idle.png
+		
+#|edited by openBor Stats v 0.62
+		

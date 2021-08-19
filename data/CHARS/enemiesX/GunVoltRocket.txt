@@ -1,0 +1,22 @@
+name GunVoltRocket
+type enemy
+health 1
+nolife 1
+candamage player
+remove 0
+
+
+
+
+
+
+
+
+
+anim	idle
+	attack	0 0 16 11 2 0 1 1 0 0
+	offset	8 10
+	frame	data/chars/enemiesx/Rocket.png
+		
+#|edited by openBor Stats v 0.62
+		

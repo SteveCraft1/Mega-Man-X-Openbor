@@ -1,0 +1,3 @@
+name BallDeVoux
+type enemy
+nolife 1
