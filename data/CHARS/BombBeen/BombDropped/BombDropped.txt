@@ -5,7 +5,7 @@ health  100
 gfxshadow	1
 speed   7
 remove 1
-jumpheight   1
+jumpheight   0
 antigravity  20
 
 
@@ -25,10 +25,10 @@ anim	attack1
 	delay	1
 	offset	5 10
 	frame	data/chars/bombbeen/idle.png
-
+		
 anim	attack2
 	delay	1
-	offset 	5 10
+	offset	5 10
 	frame	data/chars/bombbeen/idle.png
 		
 anim	idle

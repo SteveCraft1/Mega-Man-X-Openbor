@@ -1,0 +1,18 @@
+name BombinGround
+type enemy
+health 1
+nomove 1 1
+nolife 1
+remove 1
+
+anim	idle
+	attack	0 0 14 10 2 0 1 0 0 0
+	loop	1
+	delay	7
+	offset	7 9
+	frame	data//chars/bombbeen/ground1.png
+	attack	0 0 14 10 2 0 1 0 0 0
+	frame	data//chars/bombbeen/ground2.png
+		
+#|edited by openBor Stats v 0.62
+		

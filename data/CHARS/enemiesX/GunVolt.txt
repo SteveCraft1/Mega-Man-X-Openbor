@@ -14,8 +14,74 @@ hostile player
 
 
 
-anim	freespecial
+
+
+
+
+
+
+
+
+
+
+
+anim	attack1
+	range	0 80
+	attack	8 0 36 53 3 0 0 1 0 0
+	delay	12
+	offset	24 52
+	frame	data/chars/enemiesx/gunvoltpreparetoattack1.png
+	attack	8 0 36 50 3 0 1 1 0 0
+	offset	24 49
+	frame	data/chars/enemiesx/gunvoltpreparetoattack2.png
+	attack	8 0 36 48 3 0 1 0 0 0
+	offset	24 47
+	frame	data/chars/enemiesx/gunvoltpreparetoattack3.png
+	attack	8 0 36 47 3 0 1 1 0 0
+	offset	24 46
+	frame	data/chars/enemiesx/gunvoltpreparetoattack4.png
+	attack	8 0 36 48 3 0 1 0 0 0
+	offset	24 47
+	frame	data/chars/enemiesx/GunVoltattack1.png
+	attack	7 0 37 62 3 0 1 1 0 0
+	offset	24 61
+	frame	data/chars/enemiesx/GunVoltattack6.png
+	attack	7 0 35 62 3 0 1 0 0 0
+	frame	data/chars/enemiesx/GunVoltattack5.png
+	attack	7 0 36 62 3 0 1 0 0 0
+	frame	data/chars/enemiesx/GunVoltattack4.png
+	attack	7 0 36 62 3 0 1 1 0 0
+	delay	100
+	frame	data/chars/enemiesx/GunVoltattack3.png
+	@cmd	projectile 1 "GunVoltEletric" 6 0 17 1 0 1
+	@cmd	projectile 1 "GunVoltEletric" 21 0 17 1 0 1
+	attack	7 0 35 62 3 0 1 1 0 0
+	delay	12
+	frame	data/chars/enemiesx/GunVoltattack2.png
+	delay	40
+	attack	7 0 36 62 3 0 1 1 0 0
+	frame	data/chars/enemiesx/GunVoltattack3.png
+	delay	12
+	attack	8 0 36 48 3 0 1 0 0 0
+	offset	24 47
+	frame	data/chars/enemiesx/GunVoltattack1.png
+	attack	8 0 36 47 3 0 1 1 0 0
+	offset	24 46
+	frame	data/chars/enemiesx/gunvoltpreparetoattack4.png
+	attack	8 0 36 48 3 0 1 0 0 0
+	offset	24 47
+	frame	data/chars/enemiesx/gunvoltpreparetoattack3.png
+	attack	8 0 36 50 3 0 1 1 0 0
+	offset	24 49
+	frame	data/chars/enemiesx/gunvoltpreparetoattack2.png
 	attack	8 0 36 53 3 0 1 0 0 0
+	delay	12
+	offset	24 52
+	frame	data/chars/enemiesx/gunvoltpreparetoattack1.png
+		
+anim	freespecial
+	range	30 120
+	attack	8 0 36 53 3 0 0 1 0 0
 	delay	12
 	offset	24 52
 	frame	data/chars/enemiesx/gunvoltpreparetoattack1.png
@@ -43,9 +109,34 @@ anim	freespecial
 	frame	data/chars/enemiesx/GunVoltattack3.png
 	attack	7 0 35 62 3 0 1 1 0 0
 	delay	12
+	@cmd	projectile 1 "gunvoltrocket" 6 0 17 1
 	frame	data/chars/enemiesx/GunVoltattack2.png
+	delay	40
 	attack	7 0 36 62 3 0 1 1 0 0
 	frame	data/chars/enemiesx/GunVoltattack3.png
+	attack	7 0 36 62 3 0 1 1 0 0
+	@cmd	projectile 1 "gunvoltrocket" 21 0 17 1
+	frame	data/chars/enemiesx/GunVoltattack2.png
+	delay	40
+	attack	7 0 36 62 3 0 1 1 0 0
+	frame	data/chars/enemiesx/GunVoltattack3.png
+	delay	12
+	attack	8 0 36 48 3 0 1 0 0 0
+	offset	24 47
+	frame	data/chars/enemiesx/GunVoltattack1.png
+	attack	8 0 36 47 3 0 1 1 0 0
+	offset	24 46
+	frame	data/chars/enemiesx/gunvoltpreparetoattack4.png
+	attack	8 0 36 48 3 0 1 0 0 0
+	offset	24 47
+	frame	data/chars/enemiesx/gunvoltpreparetoattack3.png
+	attack	8 0 36 50 3 0 1 1 0 0
+	offset	24 49
+	frame	data/chars/enemiesx/gunvoltpreparetoattack2.png
+	attack	8 0 36 53 3 0 1 0 0 0
+	delay	12
+	offset	24 52
+	frame	data/chars/enemiesx/gunvoltpreparetoattack1.png
 		
 anim	idle
 	attack	0 0 42 57 3 0 1 0 0 0

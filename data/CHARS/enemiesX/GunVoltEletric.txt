@@ -1,0 +1,32 @@
+name GunVoltEletric
+type enemy
+health  1
+speed   10
+candamage player
+antigravity -100
+remove 0
+jumpheight   1
+
+
+
+
+
+
+anim	attack1
+	offset	2 3
+	@cmd	projectile 1 "GunVoltEletric" 0 0 0 1 0 0
+	frame	data/chars/enemiesX/EletricEmpty.png
+		
+anim	idle
+	attack	0 0 15 14 2 0 1 0 0 0
+	loop	1
+	delay	7
+	offset	7 13
+	frame	data//chars/enemiesx/eletric1.png
+	attack	0 0 15 16 2 0 1 0 0 0
+	frame	data//chars/enemiesx/eletric2.png
+	attack	0 0 16 16 2 0 1 0 0 0
+	frame	data//chars/enemiesx/eletric3.png
+		
+#|edited by openBor Stats v 0.62
+		

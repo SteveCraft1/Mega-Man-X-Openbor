@@ -1,0 +1,13 @@
+name Bridge
+type none
+nolife 1
+health 1
+defense normal 0 1 9999 9999 9999 0 0
+
+
+anim	idle
+	offset	172 375
+	frame	data/chars/Bridge/0.png
+		
+#|edited by openBor Stats v 0.62
+		

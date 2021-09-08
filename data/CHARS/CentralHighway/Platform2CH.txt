@@ -1,0 +1,15 @@
+name  Platform2CH
+health	 1
+nolife  1
+type  none
+subject_to_gravity 0
+
+
+anim	idle
+	delay	1
+	offset	1 1
+	platform	1 1 0 0 487 487 1 47
+	frame	Data/CHARS/empty.gif
+		
+#|edited by openBor Stats v 0.62
+		

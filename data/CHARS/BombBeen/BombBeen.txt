@@ -6,7 +6,7 @@ nolife 1
 hostile player
 candamage player
 atchain 1
-
+subject_to_hole 0
 
 
 

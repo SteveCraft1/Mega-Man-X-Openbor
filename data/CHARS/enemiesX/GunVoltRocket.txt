@@ -1,5 +1,6 @@
 name GunVoltRocket
 type enemy
+speed 4
 health 1
 nolife 1
 candamage player
