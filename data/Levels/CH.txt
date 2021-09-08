@@ -8,10 +8,25 @@ spawn1 65 0 118
 
 wall 49 226 -50 -50 755 755 50 64
 wall 0 214 10 0 55 55 100 200
+wall 1345 190 0 0 993 993 1 81
+
+hole 804 226 0 0 60 60 50 60
 
 order		a
-cameraoffset 0 -200
-group 1 1
+cameratype 1
+cameraoffset 0 -400
+
+spawn bridge
+coords 3310 509
+at 0
+
+spawn Platform2CH
+coords 833 190 50
+at 0
+
+spawn GunVolt
+coords 264 190
+at 0
 
 spawn BombBeen
 coords 360 190 0
@@ -24,3 +39,4 @@ at 1082
 spawn BombBeen
 coords 6834 181
 at 0
+

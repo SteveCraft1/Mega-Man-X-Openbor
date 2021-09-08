@@ -8,7 +8,7 @@ maxattacks 10
 maxattacktypes 50
 maxfollows 100
 maxfreespecials 100
-
+colourselect 1
 
 #X
 #load  X       data/chars/X/x.txt
@@ -23,9 +23,10 @@ know  dash	data/chars/weakzero/dash.txt
 know  charging  data/chars/weakzero/fakeshot.txt
 #load  Zero	data/chars/Zero/Z.txt
 
-#Prison
+#Objects
 #know  PrisonUp	data/chars/WeakZero/Prison1.txt
 #know  PrisonDown data/chars/WeakZero/Prison2.txt
+know	Bridge	data/chars/Bridge/Bridge.txt
 
 #Enemies from X1
 know	BombBeen data/chars/BombBeen/BombBeen.txt
@@ -38,3 +39,8 @@ load  GunVoltRocket data/chars/enemiesX/GunVoltRocket.txt
 
 know  RoadAttacker data/chars/enemiesX/RoadAttacker.txt
 know  RoadAttackerBroken data/chars/enemiesX/RoadAttackerBroken.txt
+
+#CentralHighwayPlatforms
+Know Platform2CH data/CHARS/CentralHighway/Platform2CH.txt
+Load GunVoltEletric data/CHARS/enemiesX/GunVoltEletric.txt
+Know BombinGround data/Chars/BombBeen/BombinGround.txt

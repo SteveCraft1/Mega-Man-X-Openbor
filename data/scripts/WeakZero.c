@@ -57,10 +57,13 @@ int Player = getlocalvar("player");
           stopchannel(channel_id);
           setglobalvar("channel_to_stop", NULL());  
           int ChargeShot = loadsample("data/MMXSound/ChargeShot.wav");
-          stopchannel(charging_id);
-          setglobalvar("chargingloop", NULL());
           performattack(Self, openborconstant("ANI_FOLLOW1"), 0);
           playsample(ChargeShot,0,120,120,100,0);
         }
+      }
+      if(Animation == openborconstant("ANI_FREESPECIAL") && getglobalvar("channel_to_stop") == NULL() && getglobalvar("chargingloop") == NULL()){
+        int ChargeShot = loadsample("data/MMXSound/ChargeShot.wav");
+        performattack(Self, openborconstant("ANI_FOLLOW1"), 0);
+        playsample(ChargeShot,0,120,120,100,0);
       }
      }
