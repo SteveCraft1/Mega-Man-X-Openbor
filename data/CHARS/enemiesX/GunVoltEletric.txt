@@ -22,11 +22,11 @@ anim	idle
 	loop	1
 	delay	7
 	offset	7 13
-	frame	data//chars/enemiesx/eletric1.png
+	frame	data/chars/enemiesx/eletric1.png
 	attack	0 0 15 16 2 0 1 0 0 0
-	frame	data//chars/enemiesx/eletric2.png
+	frame	data/chars/enemiesx/eletric2.png
 	attack	0 0 16 16 2 0 1 0 0 0
-	frame	data//chars/enemiesx/eletric3.png
+	frame	data/chars/enemiesx/eletric3.png
 		
 #|edited by openBor Stats v 0.62
 		
